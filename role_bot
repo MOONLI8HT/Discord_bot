@@ -44,5 +44,5 @@ class my_client(discord.Client):
             print('[ERROR] KeyError, no role found for ' + emoji)
 
 # RUN
-client = MyClient()
+client = my_client()
 client.run(config.TOKEN)
